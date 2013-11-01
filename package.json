@@ -1,0 +1,18 @@
+{
+  "name": "dial_client",
+  "version": "0.0.1",
+  "description": "DIAL Client",
+  "main": "dial_client.js",
+  "dependencies": {
+    "libxmljs": "~0.8.1",
+    "request": "~2.27.0",
+    "ssdp": "~0.0.1",
+    "vows": "~0.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test_client.js"
+  },
+  "author": "Tom Nixon <tom@tomn.co.uk>",
+  "license": "MIT"
+}
